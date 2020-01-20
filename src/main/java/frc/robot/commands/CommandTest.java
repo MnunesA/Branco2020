@@ -13,10 +13,10 @@ import frc.robot.subsystems.SubsystemTest;
 
 public class CommandTest extends CommandBase {
 
-  private SubsystemDriver subsTest;
+  private SubsystemTest subsTest;
   private double speed;
 
-  public CommandDriver(SubsystemDriver subsystemT) {
+  public CommandTest(SubsystemTest subsystemT) {
     this.subsTest = subsystemT;
     addRequirements(subsTest);
   }
